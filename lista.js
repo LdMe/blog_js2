@@ -1,5 +1,5 @@
 let boton = document.getElementById("guardar");
-        boton.addEventListener("click",guardarElemento);
+boton.addEventListener("click",guardarElemento);
 
         function guardarElemento() {
             let text = document.getElementById("input").value.trim();
